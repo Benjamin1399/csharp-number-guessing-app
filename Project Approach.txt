@@ -1,0 +1,13 @@
+Number guess project
+====================
+
+Get difficultly level choice from user
+
+Based on difficultly, set number to be guessed and set number of tries
+
+let user know how many tries
+
+do
+	Get number from user
+	convert to int
+while less than tries
