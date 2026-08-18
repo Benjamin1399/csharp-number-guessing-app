@@ -119,6 +119,11 @@ namespace ConsoleUI
                 }
 
             } while (numberOfTries != 0);
+
+            if (numberOfTries == 0)
+            {
+                Console.WriteLine($"The number chosen was {chosenNumber}");
+            }
         }
     }
 }
