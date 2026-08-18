@@ -118,6 +118,8 @@ namespace ConsoleUI
                     numberOfTries--;
                 }
 
+                Console.WriteLine(); // line break;
+
             } while (numberOfTries != 0);
 
             if (numberOfTries == 0)
